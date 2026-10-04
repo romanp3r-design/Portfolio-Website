@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <!-- Below is the Bootstrap Script -->
-<title>Contact Me - Roman Peralta Portfolio</title>
+<title>Contacts - Roman Peralta Portfolio</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,18 +15,53 @@
 
    <!-- jQuery used to load the navbar -->
    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Head of HTML -->
 </head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me - Roman Peralta Portfolio</title> 
+  <title>Contacts - Roman Peralta Portfolio</title> 
+  <style>
+  body {
+    font-family: "Gill Sans", sans-serif;
+    padding: 2rem;
+    background-color:  rgb(0, 60, 112);
+    color: #ffffff;
+    text-align: center;
+  } 
+</style>
 </head>
-<!-- Body of the site -->
+<!-- Body of HTML -->
 <body>
   <!-- Navbar gets added here -->
    <div id="nav-placeholder"></div>
      <!-- Here is where your div container(s) will go with your web page content-->
+<!-- Here is the container that features the heading to my site. -->
+<div class="container p-5 my-5 bg-success text-white">
+  <h1>Contact Me</h1>
+  <p>Below are a couple of ways in which you can reach out to.</p>
+</div> 
+<div class="text-end"></div>
+<div class="container">
+<div class="d-flex align-items-start gap-4">
+    <div class="flex-grow-1 p-4 bg-success text-white rounded align-self-stretch  d-flex align-items-center justify-content-center">
+        <p>
+            You can reach out to me in a number of ways!.
+            720-434-5215 Is my Business Phone Number!
+            I am most easily reached at rperalt2@msudenver.edu!
+        </p>
+    </div>
+       <div class="card ms-auto flex-shrink-0" style="width: 300px;">
+         <img src="/Users/romanperalta/Documents/Githubrepos/Website Portfolio/images/Phone_icon.png" class="card-img-top" alt="MSU Denver Logo" Image">
+          <div class="card-body">
+            <h5 class="card-title">Student Info</h5>
+            <p class="card-text">Feel free to shoot me an email!</p>
+            <a href="mailto:rperalt2@msudenver.edu" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+        </div>
 
-<div>  
+    </div>
+</div>
    <script>
        // Load only the #site-nav element from navbar.html
        $("#nav-placeholder").load("navbar.html #site-nav");

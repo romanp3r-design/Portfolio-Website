@@ -15,18 +15,32 @@
 
    <!-- jQuery used to load the navbar -->
    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Head of HTML -->
 </head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Roman Peralta Portfolio</title> 
+  <title>Projects - Roman Peralta Portfolioo</title> 
+  <style>
+  body {
+    font-family: "Gill Sans", sans-serif;
+    padding: 2rem;
+    background-color:  rgb(0, 60, 112);
+    color: #ffffff;
+    text-align: center;
+  } 
+</style>
 </head>
-<!-- Body of the site -->
+<!-- Body of HTML -->
 <body>
   <!-- Navbar gets added here -->
    <div id="nav-placeholder"></div>
      <!-- Here is where your div container(s) will go with your web page content-->
-
-<div>
+<!-- Here is the container that features the heading to my site. -->
+<div class="container p-5 my-5 bg-success text-white">
+  <h1>Projects</h1>
+  <p>Quite frankly I don't have anything to show off that isn't this website,
+     I will update this in the future!.</p>
+</div> 
    <script>
        // Load only the #site-nav element from navbar.html
        $("#nav-placeholder").load("navbar.html #site-nav");
